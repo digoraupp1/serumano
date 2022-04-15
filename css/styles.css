@@ -107,6 +107,9 @@ header, .navbar {
 .carousel-indicators .active {
   background-color: var(--primary-color);
 }
+#banner2 {
+  margin-top: -60px;
+}
 
 /* Sobre a empresa */
 
@@ -210,6 +213,9 @@ header, .navbar {
 
 #apply-area {
   height: 500px;
+}
+#apply-area p{
+  font-size: 16px ;
 }
 
 #apply-area .container-fluid, #apply-area .row {
@@ -408,6 +414,9 @@ header, .navbar {
     width: 560px;
     height: 300px; 
   }
+  #banner2 {
+    margin-top: 0;
+  }
   
   /* geral */
   .container {
@@ -490,6 +499,10 @@ header, .navbar {
 
 @media(max-width: 425px) {
   /* slider */
+  #banner2 {
+    margin-top: 0;
+  }
+
   #mainSlider {
     margin-top: 50px;
   }
