@@ -15,7 +15,7 @@ let circleA = new ProgressBar.Circle(containerA, {
   step: function(state, circle) {
     circle.path.setAttribute('stroke', state.color);
 
-    var value = Math.round(circle.value() * '172580');
+    var value = Math.round(circle.value() * 47673);
     circle.setText(value);
 
   }
