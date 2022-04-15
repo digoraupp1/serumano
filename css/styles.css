@@ -403,6 +403,11 @@ header, .navbar {
 
 /* responsive */
 @media(max-width: 768px) {
+
+  #video iframe {
+    width: 560px;
+    height: 300px; 
+  }
   
   /* geral */
   .container {
@@ -438,6 +443,9 @@ header, .navbar {
   
   #data-area p {
     font-size: 16px;
+  }
+  .progressbar-text{
+    font-size: 18px;
   }
   
   /* team */
@@ -504,7 +512,7 @@ header, .navbar {
     font-size: 14px;
   }
 
-  #video object {
+  #video iframe {
     width: 360px;
     height: 180px; 
   }
